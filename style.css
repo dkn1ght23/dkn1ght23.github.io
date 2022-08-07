@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,700&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400;1,700&family=Teko:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Teko', sans-serif;
+}
+
+.navbar{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 20px 0;
+    background-color: #4b4453;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px;
+}
+
+.wrapper .navbar .navbar-header a{
+    font-size: 28px;
+    color: white;
+}
+
+.wrapper .navbar .nav-link{
+    color: white;
+    padding-left: 20px;
+}
+
+.wrapper .navbar .nav-link.active,
+.wrapper .navbar .nav-link:hover{
+    color: #4fd6f7;
+}
+
+.wrapper .background img{
+    width: 100%;
+}
+
+.wrapper .hero-section{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.wrapper .hero-section h3{
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.wrapper .hero-section h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.wrapper .hero-section p{
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+/*-------------------------------------------------About Section-------------------------------------------------*/
+
+.about-wrapper{
+    background-color: #171c28;
+    color: white;
+}
+
+.about-wrapper .about-heading h1{
+    font-size: 5em;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.about-wrapper .about-heading hr{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+.about-wrapper .about-details .left{
+    padding-bottom: 20px;
+}
+
+.about-wrapper img{
+    width: 50%;
+}
+
+.about-wrapper .about-details .right h3{
+    font-size: 5em;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.about-wrapper .about-details .right p{
+    font-size: 2em;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.about-wrapper .about-details .right button{
+    background-color: black;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.about-wrapper .about-details .right a{
+ text-decoration: none;
+ color: white;
+ font-size: 2em;
+ text-transform: uppercase;
+}
+
+.about-wrapper .about-details .right button:hover{
+    border: 2px solid #4fd6f7;
+}
+
+
+/*-------------------------------------------------Skill Section-------------------------------------------------*/
+
+
+.skill-wrapper{
+    background-color: #171c28;
+    color: white;
+}
+
+.skill-wrapper .skill-heading h1{
+    font-size: 5em;
+    margin-top: 1em;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.skill-wrapper .skill-heading hr{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+
+.skill-wrapper .inner-wrapper .card{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;  
+    transition: all ease 0.2s;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-wrapper .inner-wrapper .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -15px #aba9af;
+    background-color: #333e59;
+  }
+
+.skill-wrapper .inner-wrapper .card i{
+    font-size: 5em;
+    color: white;
+}
+
+.skill-wrapper .inner-wrapper .card .card-title{
+    font-size: 3em;
+    color: white;
+}
+
+
+/*-------------------------------------------------CP Section-------------------------------------------------*/
+
+.cp-wrapper{
+    background-color: #171c28;
+    color: white;
+}
+
+.cp-wrapper .cp-heading h1{
+    font-size: 5em;
+    margin-top: 1em;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.cp-wrapper .cp-heading hr{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+
+.cp-wrapper .inner-wrapper .card{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;  
+    transition: all ease 0.2s;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cp-wrapper .inner-wrapper .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -15px #aba9af;
+    background-color: #333e59;
+  }
+
+.cp-wrapper .inner-wrapper .card img{
+    width: 200px;
+    color: white;
+}
+
+.cp-wrapper .inner-wrapper .card .card-title{
+    font-size: 2em;
+    color: white;
+}
+
+.cp-wrapper .inner-wrapper .card button{
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+
+/*-------------------------------------------------Project Section-------------------------------------------------*/
+
+.project-wrapper{
+    background-color: #171c28;
+    color: white;
+}
+
+.project-wrapper .project-heading h1{
+    font-size: 5em;
+    margin-top: 1em;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.project-wrapper .project-heading hr{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+
+.project-wrapper .inner-wrapper .card{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;  
+    transition: all ease 0.2s;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-wrapper .inner-wrapper .card .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.project-wrapper .inner-wrapper .card .card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-wrapper .inner-wrapper .card .card-footer i{
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 6px;
+    padding-right: 5px;
+}
+
+.project-wrapper .inner-wrapper .card .card-footer .color{
+    font-size: 1.2em;
+    color: #fb4570;
+    padding-bottom: 6px;
+    padding-right: 5px;
+}
+
+
+.project-wrapper .inner-wrapper .card .card-footer p{
+    font-size: 2em;
+    color: white;
+    padding-right: 20px;
+}
+
+.project-wrapper .inner-wrapper .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -15px #aba9af;
+    background-color: #333e59;
+  }
+
+.project-wrapper .inner-wrapper .card i{
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 8px;
+    padding-right: 5px;
+}
+
+.project-wrapper .inner-wrapper .card .card-title{
+    font-size: 3em;
+    color: white;
+}
+
+.project-wrapper .inner-wrapper .card button{
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/*-------------------------------------------------Research Section-------------------------------------------------*/
+
+.research-wrapper{
+    background-color: #171c28;
+    color: white;
+}
+
+.research-wrapper .research-heading h1{
+    font-size: 5em;
+    margin-top: 1em;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.research-wrapper .research-heading hr{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+.research-wrapper .inner-wrapper .card{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;  
+    transition: all ease 0.2s;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.research-wrapper .inner-wrapper .card .card-body{
+    margin-bottom: 100px;
+}
+
+.research-wrapper .inner-wrapper .card .card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.research-wrapper .inner-wrapper .card .card-footer p{
+    font-size: 2em;
+    color: white;
+    padding-right: 20px;
+}
+
+.research-wrapper .inner-wrapper .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px -15px #aba9af;
+    background-color: #333e59;
+  }
+
+.research-wrapper .inner-wrapper .card i{
+    font-size: 5em;
+    color: white;
+    margin-bottom: 8px;
+    padding-right: 5px;
+}
+
+.research-wrapper .inner-wrapper .card .card-title{
+    font-size: 3em;
+    color: white;
+}
+
+.research-wrapper .inner-wrapper .card button{
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/*-------------------------------------------------Contact Me Section-------------------------------------------------*/
+
+.contact-wrapper{
+    background-color: #171c28;
+    color: white;
+}
+
+.contact-wrapper .contact-heading h1{
+    font-size: 5em;
+    margin-top: 1em;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.contact-wrapper .contact-heading hr{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+.contact-wrapper .inner-wrapper{
+    height: 300px;
+}
+
+.contact-wrapper .inner-wrapper h2{
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.contact-wrapper .inner-wrapper h3{
+    color: white;
+    font-size: 3em;
+}
+
+.contact-wrapper .inner-wrapper .social-media{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon{
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon:hover span{
+    color: #fff;
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon .tooltip{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon:hover .tooltip{
+    top: 70px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .icon .tooltip:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    left: 50%;
+    top: -6px;
+    transform: translateX(-50%) rotate(45deg);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon:hover span{
+    color: #fff;
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .icon:hover .span,
+  .contact-wrapper .inner-wrapper .social-media .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  }
+  
+  .contact-wrapper .inner-wrapper .social-media .fb:hover span,
+  .contact-wrapper .inner-wrapper .social-media .fb:hover .tooltip,
+  .contact-wrapper .inner-wrapper .social-media .fb:hover .tooltip:before{
+    background: #3B5999;
+  }
+  
+.contact-wrapper .inner-wrapper .social-media .twitter:hover span,
+.contact-wrapper .inner-wrapper .social-media .twitter:hover .tooltip,
+.contact-wrapper .inner-wrapper .social-media .twitter:hover .tooltip:before{
+  background: #46C1F6;
+}
+
+.contact-wrapper .inner-wrapper .social-media .gmail:hover span,
+.contact-wrapper .inner-wrapper .social-media .gmail:hover .tooltip,
+.contact-wrapper .inner-wrapper .social-media .gmail:hover .tooltip:before{
+  background: #DE463B;
+}
+
+.contact-wrapper .inner-wrapper .social-media .instagram:hover span,
+.contact-wrapper .inner-wrapper .social-media .instagram:hover .tooltip,
+.contact-wrapper .inner-wrapper .social-media .instagram:hover .tooltip:before{
+  background: #e1306c;
+}
+
+.contact-wrapper .inner-wrapper .social-media .github:hover span,
+.contact-wrapper .inner-wrapper .social-media .github:hover .tooltip,
+.contact-wrapper .inner-wrapper .social-media .github:hover .tooltip:before{
+  background: #333;
+}
+
+.contact-wrapper .inner-wrapper .social-media .linkedin:hover  span,
+.contact-wrapper .inner-wrapper .social-media .linkedin:hover .tooltip,
+.contact-wrapper .inner-wrapper .social-media .linkedin:hover .tooltip:before{
+  background: #0589D2;
+}
+
+/*-------------------------------------------------Footer Section-------------------------------------------------*/
+
+.wrapper{
+    background-color: #171c28;
+}
+
+.wrapper .text{
+    color: white;
+    font-size: 1.5em;
+}
+
+/*-------------------------------------------------media query-------------------------------------------------*/
+
+@media screen and (max-width: 1200px){
+    /*--------desktops-------*/
+    .wrapper .hero-section{
+        top: 19%;
+    }
+
+    .about-wrapper .about-details .right a{
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 992px){
+    /*--------small laptop-------*/
+
+    .navbar{
+        font-size: 15px;
+    }
+
+    .wrapper .navbar .navbar-header a{
+        font-size: 20px;
+    }
+
+    .wrapper .hero-section{
+        top: 20%;
+    }
+    
+    .wrapper .hero-section h3{
+        font-size: 2em;
+        font-weight: 300;
+    }
+    
+    .wrapper .hero-section h1{
+        font-size: 4em;
+        font-weight: bolder;
+    }
+    
+    .wrapper .hero-section p{
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 768px ){
+     /*--------tablets-------*/
+
+    .wrapper .hero-section{
+        top: 20%;
+    }
+    
+    .wrapper .hero-section h3{
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+    
+    .wrapper .hero-section h1{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    
+    .wrapper .hero-section p{
+        font-size: 1.2em;
+        font-weight: 100;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    /*--------mobiles-------*/
+    
+    .wrapper .hero-section{
+        top: 15%;
+    }
+    
+    .wrapper .hero-section h3{
+        font-size: 1em;
+        font-weight: 300;
+    }
+    
+    .wrapper .hero-section h1{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    
+    .wrapper .hero-section p{
+        font-size: 1em;
+        font-weight: 100;
+    }
+
+    .about-wrapper .about-heading h1{
+        font-size: 3.5em;
+    }
+
+    .about-wrapper .about-details .right a{
+        font-size: 1em;
+    }
+
+    .skill-wrapper .skill-heading h1{
+        font-size: 3.5em;
+    }
+
+    .cp-wrapper .cp-heading h1{
+        font-size: 3.5em;
+    }
+
+    .project-wrapper .project-heading h1{
+        font-size: 3.5em;
+    }
+    
+    .research-wrapper .research-heading h1{
+        font-size: 3.5em;
+    }
+    
+    .contact-wrapper .contact-heading h1{
+        font-size: 3.5em;
+    }
+}

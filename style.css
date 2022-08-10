@@ -15,6 +15,7 @@ body{
     letter-spacing: 0.2rem;
     padding: 20px 0;
     background-color: #4b4453;
+    border: 1px solid yellow;
 }
 
 .navbar-fixed-top {
@@ -463,9 +464,20 @@ body{
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-  
-  .contact-wrapper .inner-wrapper .social-media .icon{
+    margin-left: 3%;
+}
+
+.contact-wrapper .inner-wrapper .social-media .first{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-wrapper .inner-wrapper .social-media .second{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-wrapper .inner-wrapper .social-media .icon{
     margin-right: 20px;
     text-align: center;
     cursor: pointer;
@@ -680,7 +692,11 @@ body{
     }
 
     .about-wrapper .about-heading h1{
-        font-size: 3.5em;
+        font-size: 3em;
+    }
+
+    .about-wrapper .about-details .right p{
+        font-size: 1.5em;
     }
 
     .about-wrapper .about-details .right a{
@@ -688,22 +704,52 @@ body{
     }
 
     .skill-wrapper .skill-heading h1{
-        font-size: 3.5em;
+        font-size: 3em;
     }
 
     .cp-wrapper .cp-heading h1{
-        font-size: 3.5em;
+        font-size: 3em;
     }
 
     .project-wrapper .project-heading h1{
-        font-size: 3.5em;
+        font-size: 3em;
     }
     
     .research-wrapper .research-heading h1{
-        font-size: 3.5em;
+        font-size: 3em;
     }
     
     .contact-wrapper .contact-heading h1{
-        font-size: 3.5em;
+        font-size: 3em;
+    }
+
+    .contact-wrapper .inner-wrapper h2{
+        font-size: 2em;
+    }
+
+    .contact-wrapper .inner-wrapper h3{
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 515px){
+    .contact-wrapper .inner-wrapper .social-media{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-wrapper .inner-wrapper .social-media .first{
+        margin-bottom: 70px;
+        margin-left: 3%;
+    }
+
+    .contact-wrapper .inner-wrapper .social-media .second{
+        margin-bottom: 70px;
+        margin-left: 3%;
+    }
+
+    .contact-wrapper .inner-wrapper{
+        height: 450px;
     }
 }
